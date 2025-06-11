@@ -7,17 +7,19 @@ public class Main {
 		// Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
 
 		Scanner sc = new Scanner(System.in);
-
-		int N = sc.nextInt();
-
-		if (N % 2 == 0) {
-			System.out.println( "O número " + N + " é PAR");
-
-		} else {
-			System.out.println("O número " + N + " é IMPAR");
+		
+		int numero = sc.nextInt();
+		
+		if (numero % 2 == 0) {
+			
+			System.out.println("O número " + numero + " é PAR.");
 		}
-
+		else {
+			System.out.println("O número " + numero + " é IMPAR.");
+		}
+		
 		sc.close();
 	}
+	
 
 }
